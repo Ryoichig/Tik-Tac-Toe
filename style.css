@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #2eb2ff;
+}
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 75px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.game--title {
+    padding-top: 20px;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 150px;
+    margin: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cell {
+    font-family: "Poppins", sans-serif;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 20px;
+}
+button {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 110px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #42afee;
+    cursor: pointer;
+}
+button:hover {
+    transition: 0.25s;
+    background-color: #1591e4;
+    border: 2px;
+}
+
+.cell2{
+    border-top-left-radius: 7px;
+}
+.cell3{
+    border-top-right-radius: 7px;
+}
+.cell4{
+    border-bottom-left-radius: 7px;
+}
+.cell5{
+    border-bottom-right-radius: 7px;
+}
